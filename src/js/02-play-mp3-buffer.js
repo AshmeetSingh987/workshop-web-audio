@@ -24,7 +24,6 @@ async function loadSound() {
     // Decode the entire binary MP3 into an AudioBuffer
     audioBuffer=await audioContext.decodeAudioData(buf);
   }
-
 }
 
 async function playSound() {
